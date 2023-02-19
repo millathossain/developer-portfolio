@@ -51,15 +51,118 @@ nav ul {
   margin-bottom: 5px;
 }
 
-.banner-title{
-    font-weight: 700;
-font-size: 85px;
-color: #181818;
-margin-bottom: 20px;
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  color: #181818;
+  margin-bottom: 20px;
 }
-.banner-description{
-    font-weight: 400;
-font-size: 18px;
-color: #757575;
-margin-bottom: 30px;
+.banner-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+/* header background */
+.header {
+  background-color: #fff8f3;
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+
+/* about me section css */
+
+main {
+  max-width: 1140px;
+  /* max-height: 550px; */
+  height: 550px;
+  margin: 0 auto;
+}
+
+.about-me {
+  /* margin: 131px 157px 131px 156px; */
+  color: #181818;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.section {
+  /* max-height: 550px; */
+  margin-top: 131px;
+  background: #fff8f3;
+  padding: 131px 157px 1px 156px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about-me {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 30px;
+}
+.about-description {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+/* about item css */
+.about-info-container {
+  display: flex;
+  margin-bottom: 161px;
+  /* border-color: 1px red solid; */
+  justify-content: space-around;
+}
+
+.about-title {
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
+}
+
+.about-des {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+
+/* What I do section CSS */
+
+.whta-i-do {
+  margin-top: 99px;
+  margin-bottom: 30px;
+}
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.skill-description {
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skill {
+    /* width: 267px;
+height: 377px; */
+padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
 }
